@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+  background: #f7f7f7;
+  text-align: center;
+  padding: 30px;
+}
+
+svg {
+  background: white;
+  border: 1px solid #ddd;
+}
+
+.bar {
+  fill: steelblue;
+  transition: fill 0.3s;
+}
+
+.bar:hover {
+  fill: orange;
+}
